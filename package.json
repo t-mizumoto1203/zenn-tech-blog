@@ -1,0 +1,21 @@
+{
+  "name": "tech-blog",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "zenn": "zenn",
+    "new-article": "zx ./scripts/new-articls.mjs",
+    "preview": "zenn preview"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:sukedachi/tech-blog.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "zenn-cli": "^0.1.144",
+    "zx": "^7.2.3"
+  }
+}
